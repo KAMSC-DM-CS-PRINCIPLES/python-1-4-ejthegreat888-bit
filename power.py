@@ -18,12 +18,12 @@ def power(x, n):
     """
     p = x
     k = 1
-    
+
     while k < n:
         p = p * x
         k = k + 1
 
-    return P
+    return p
 
 
 if __name__ == "__main__":
