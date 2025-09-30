@@ -16,6 +16,14 @@ def power(x, n):
        - k = k + 1
     3. Return P
     """
+    p = x
+    k = 1
+
+    while k < n:
+        p = p * x
+        k = k + 1
+
+    return p
 
 
 if __name__ == "__main__":
